@@ -1,8 +1,49 @@
-Python VS Code Extension
+# Connect 4 – Terminal Version
 
-## Additional Packages
+This is the **original terminal-based version** of the Connect 4 game, developed before transitioning to a GUI.
 
-pip install numpy matplotlib scikit-learn pandas
+It supports:
+- Human vs Human
+- Human vs AI (Random, Smart, Minimax, ML)
+- AI vs AI
+
+---
+
+## Requirements
+
+- Python 3.10 or later  
+- Recommended: VS Code with the Python extension
+- `scikit-learn` and `colorama` (typically preinstalled)
+
+> If needed, install missing packages with:
+> ```
+> pip install scikit-learn colorama
+> ```
+
+## How to Run
+
+1. Open a terminal in this folder.
+2. Run the script with:
+   ```bash
+   python game.py
+
+---
+
+## Files
+
+- `game.py` – The full CLI-based game logic  
+- `ml_agent.pkl` – Trained ML model (basic)  
+- `ml_agent_minimax.pkl` – Trained ML model using minimax-generated data  
+
+---
+
+## Notes
+
+- This version lacks a visual interface but demonstrates core functionality.  
+- It's included as part of the project history, showing early development stages before the GUI was introduced.  
+- All AI agents and minimax logic work in this version.  
+
+---
 
 ## References
 
