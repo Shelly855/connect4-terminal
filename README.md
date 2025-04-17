@@ -2,9 +2,9 @@
 
 This is the **original terminal-based version** of the Connect 4 game, developed before transitioning to a GUI.
 
-It supports:
+### Supported Modes
 - Human vs Human
-- Human vs AI (Random, Smart, Minimax, basic ML, minimax-trained ML)
+- Human vs AI (Random, Smart, Minimax, Basic ML, Minimax-Trained ML)
 - AI vs AI
 
 ---
@@ -13,9 +13,9 @@ It supports:
 
 - Python 3.10 or later  
 - Recommended: VS Code with the Python extension
-- `scikit-learn` and `colorama` (typically preinstalled)
+- `scikit-learn` and `colorama`
 
-> If needed, install missing packages with:
+> Install packages with:
 > ```
 > pip install scikit-learn colorama
 > ```
@@ -33,8 +33,8 @@ It supports:
 
 - `game.py` – The full CLI-based game logic  
 - `ml_agent.pkl` – Trained ML model (basic)  
-- `ml_agent_minimax.pkl` – Trained ML model using minimax-generated data
-- `test_ml_prediction`(not required to run the game) - A basic script used to test basic ML agent's prediction
+- `ml_agent.pkl` – ML model trained using real game data (UCI dataset)
+- `ml_agent_minimax.pkl` – ML model trained using data generated from the minimax algorithm
 
 ---
 
@@ -42,7 +42,6 @@ It supports:
 
 - This version lacks a visual interface but demonstrates core functionality.  
 - It's included as part of the project history, showing early development stages before the GUI was introduced.  
-- All AI agents and minimax logic work in this version.  
 
 ---
 
