@@ -4,7 +4,7 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 
 It supports:
 - Human vs Human
-- Human vs AI (Random, Smart, Minimax, ML)
+- Human vs AI (Random, Smart, Minimax, basic ML, minimax-trained ML)
 - AI vs AI
 
 ---
@@ -33,7 +33,8 @@ It supports:
 
 - `game.py` – The full CLI-based game logic  
 - `ml_agent.pkl` – Trained ML model (basic)  
-- `ml_agent_minimax.pkl` – Trained ML model using minimax-generated data  
+- `ml_agent_minimax.pkl` – Trained ML model using minimax-generated data
+- `test_ml_prediction`(not required to run the game) - A basic script used to test basic ML agent's prediction
 
 ---
 
