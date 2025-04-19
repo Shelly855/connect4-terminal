@@ -11,7 +11,7 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 
 ## Requirements
 
-- Python 3.10 or later  
+- Python 3
 - Recommended: VS Code with the Python extension
 - `scikit-learn` and `colorama`
 
@@ -32,9 +32,9 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 ## Files
 
 - `game.py` – The full CLI-based game logic  
-- `ml_agent.pkl` – Trained ML model (basic)  
 - `ml_agent.pkl` – ML model trained using real game data (UCI dataset)
 - `ml_agent_minimax.pkl` – ML model trained using data generated from the minimax algorithm
+- `test_ml_prediction` - A simple script to test if ML agent predicts correctly (not required for running the game)
 
 ---
 
@@ -53,6 +53,13 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 - Science Buddies – “Connect 4 AI Player using Minimax Algorithm with Alpha-Beta Pruning: Python Coding Tutorial” (YouTube):
   - https://www.youtube.com/watch?v=rbmk1qtVEmg
   - Used as a reference for alpha-beta pruning
-- Connect 4 Dataset
+- Connect 4 dataset from UCI Machine Learning Repository
   - https://archive.ics.uci.edu/dataset/26/connect+4
   - Used to train the basic ML agent
+
+---
+
+## GitHub Version (Optional)
+
+[View this folder on GitHub](https://github.com/Shelly855/connect-4-terminal)  
+> **Note:** This link is optional and not required for marking. The GitHub version may be updated after submission.
