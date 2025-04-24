@@ -1,8 +1,64 @@
-Python VS Code Extension
+# Connect 4 – Terminal Version
 
-## Additional Packages
+This is the **original terminal-based version** of the Connect 4 game, developed before transitioning to a GUI.
 
-pip install numpy matplotlib scikit-learn pandas
+---
+
+## Table of Contents
+
+- [Connect 4 – Terminal Version](#connect-4--terminal-version)
+- [Supported Modes](#supported-modes)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+- [Files](#files)
+- [Notes](#notes)
+- [References](#references)
+- [GitHub Version (Optional)](#github-version-optional)
+
+---
+
+### Supported Modes
+- Human vs Human
+- Human vs AI (Random, Smart, Minimax, Basic ML, Minimax-Trained ML)
+- AI vs AI
+
+---
+
+## Requirements
+
+- Python 3
+- Recommended: VS Code with the Python extension
+- `scikit-learn` and `colorama`
+
+> Install packages with:
+> ```
+> pip install scikit-learn colorama
+> ```
+
+## How to Run
+
+1. Open a terminal in this folder.
+2. Run the script with:
+   ```bash
+   python game.py
+
+---
+
+## Files
+
+- `game.py` – The full CLI-based game logic  
+- `ml_agent.pkl` – ML model trained using real game data (UCI dataset)
+- `ml_agent_minimax.pkl` – ML model trained using data generated from the minimax algorithm
+- `test_ml_prediction` - A simple script to test if ML agent predicts correctly (not required for running the game)
+
+---
+
+## Notes
+
+- This version lacks a visual interface but demonstrates core functionality.  
+- It's included as part of the project history, showing early development stages before the GUI was introduced.  
+
+---
 
 ## References
 
@@ -12,6 +68,13 @@ pip install numpy matplotlib scikit-learn pandas
 - Science Buddies – “Connect 4 AI Player using Minimax Algorithm with Alpha-Beta Pruning: Python Coding Tutorial” (YouTube):
   - https://www.youtube.com/watch?v=rbmk1qtVEmg
   - Used as a reference for alpha-beta pruning
-- Connect 4 Dataset
+- Connect 4 dataset from UCI Machine Learning Repository
   - https://archive.ics.uci.edu/dataset/26/connect+4
   - Used to train the basic ML agent
+
+---
+
+## GitHub Version (Optional)
+
+[View this folder on GitHub](https://github.com/Shelly855/connect4-terminal)  
+> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
