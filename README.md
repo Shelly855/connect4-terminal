@@ -2,6 +2,21 @@
 
 This is the **original terminal-based version** of the Connect 4 game, developed before transitioning to a GUI.
 
+---
+
+## Table of Contents
+
+- [Connect 4 – Terminal Version](#connect-4--terminal-version)
+- [Supported Modes](#supported-modes)
+- [Requirements](#requirements)
+- [How to Run](#how-to-run)
+- [Files](#files)
+- [Notes](#notes)
+- [References](#references)
+- [GitHub Version (Optional)](#github-version-optional)
+
+---
+
 ### Supported Modes
 - Human vs Human
 - Human vs AI (Random, Smart, Minimax, Basic ML, Minimax-Trained ML)
@@ -62,4 +77,4 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 ## GitHub Version (Optional)
 
 [View this folder on GitHub](https://github.com/Shelly855/connect-4-terminal)  
-> **Note:** This link is optional and not required for marking. The GitHub version may be updated after submission.
+> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
