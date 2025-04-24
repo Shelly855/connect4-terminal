@@ -76,5 +76,5 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 
 ## GitHub Version (Optional)
 
-[View this folder on GitHub](https://github.com/Shelly855/connect-4-terminal)  
+[View this folder on GitHub](https://github.com/Shelly855/connect4-terminal)  
 > **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
