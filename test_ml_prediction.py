@@ -1,4 +1,10 @@
-# Simple test to see if ML agent predicts correctly
+"""
+test_ml_prediction.py - Simple test to verify ML agent prediction.
+
+Loads the basic ML agent model and prints a prediction for an empty board.
+Used to confirm the model loads and returns a valid column index.
+"""
+
 import joblib
 
 model = joblib.load("ml_agent.pkl")

@@ -1,7 +1,22 @@
-# === General References ===
-# - Keith Galli’s Connect 4 AI (GitHub):
-#   https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
-#   Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
+# General Reference:
+# Keith Galli - Connect 4 AI (GitHub):
+# https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
+# Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
+
+"""
+game.py - Legacy terminal-based version of Connect 4.
+
+This was the original text-based implementation before the GUI version was created.
+It supports Human vs Human, Human vs AI, and AI vs AI gameplay with various agent types:
+- Random
+- Smart (1-ply)
+- Minimax with alpha-beta pruning
+- Basic ML and Minimax-Trained ML agents
+
+The game runs entirely in the terminal and includes a simple agent selector and minimax tree visualiser.
+Retained for reference and development history; not used in the final GUI project.
+Run this script with `python game.py` to start the terminal version of the game.
+"""
 
 import random
 import time
@@ -161,8 +176,8 @@ class Connect4:
     # alpha = -∞ (worst possible start for maximising)
     # beta = ∞ (worst possible start for minimising)
 
-    # === Reference for alpha beta pruning: Science Buddies YouTube tutorial on minimax with alpha-beta pruning ===
-    #   https://www.youtube.com/watch?v=rbmk1qtVEmg
+    # Reference for alpha beta pruning: Science Buddies YouTube tutorial on minimax with alpha-beta pruning:
+    # https://www.youtube.com/watch?v=rbmk1qtVEmg
     def minimax_agent(self, alpha, beta, maximising_player, depth):
 
         valid_moves = [col for col in range(COLUMN_COUNT) if self.is_valid_move(col)] # Find all columns where move is possible (not full)
