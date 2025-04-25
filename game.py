@@ -1,8 +1,3 @@
-# General Reference:
-# Keith Galli - Connect 4 AI (GitHub):
-# https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
-# Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
-
 """
 game.py - Legacy terminal-based version of Connect 4.
 
@@ -16,6 +11,11 @@ It supports Human vs Human, Human vs AI, and AI vs AI gameplay with various agen
 The game runs entirely in the terminal and includes a simple agent selector and minimax tree visualiser.
 Retained for reference and development history; not used in the final GUI project.
 Run this script with `python game.py` to start the terminal version of the game.
+
+General Reference:
+- Keith Galli - Connect 4 AI (GitHub):
+    https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
+    Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
 """
 
 import random
