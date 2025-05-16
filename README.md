@@ -1,6 +1,6 @@
 # Connect 4 – Terminal Version
 
-This is the **original terminal-based version** of the Connect 4 game, developed before transitioning to a GUI.
+An **original terminal-based version** of a [Connect 4 game](https://github.com/Shelly855/connect4-ai), developed before transitioning to a GUI.
 
 ---
 
@@ -13,7 +13,6 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 - [Files](#files)
 - [Notes](#notes)
 - [References](#references)
-- [GitHub Version (Optional)](#github-version-optional)
 
 ---
 
@@ -71,10 +70,3 @@ This is the **original terminal-based version** of the Connect 4 game, developed
 - Connect 4 dataset from UCI Machine Learning Repository
   - https://archive.ics.uci.edu/dataset/26/connect+4
   - Used to train the basic ML agent
-
----
-
-## GitHub Version (Optional)
-
-[View this folder on GitHub](https://github.com/Shelly855/connect4-terminal)  
-> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
